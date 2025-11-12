@@ -1,5 +1,5 @@
 # Python
-pycache/
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
@@ -13,7 +13,7 @@ env/
 *.sqlite3
 
 # Data files
-*.xlsx
+# We are NOT ignoring .xlsx files so the app can use them
 
 # OS files
 .DS_Store
